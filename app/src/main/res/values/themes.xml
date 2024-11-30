@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Animition_Test" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize base theme here if needed -->
+    </style>
+
+    <style name="Theme.Animition_Test" parent="Base.Theme.Animition_Test">
+        <!-- Customize application theme here -->
+    </style>
+
+    <style name="Theme.Splash" parent="Theme.Animition_Test">
+        <!-- Customize splash screen theme here, e.g., background color or image -->
+        <item name="android:windowBackground">@drawable/anime</item>
+    </style>
+
+    <style name="Base.Theme.AppCompat" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+</resources>

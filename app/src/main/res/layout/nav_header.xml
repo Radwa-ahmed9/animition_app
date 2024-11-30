@@ -1,0 +1,25 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#e6602d"
+    android:padding="12dp">
+
+    <!-- Add your custom header content here -->
+    <ImageView
+        android:layout_width="264dp"
+        android:layout_height="197dp"
+        android:src="@drawable/baseline_message_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anime Quotes"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+
+
+</LinearLayout>

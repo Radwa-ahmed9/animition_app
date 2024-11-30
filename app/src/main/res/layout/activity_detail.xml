@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/detail_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="@string/image_desc"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/detail_quote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white" />
+
+    <ImageButton
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="2dp"
+        android:background="#00ff0000"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/home_1_svgrepo_com" />
+</LinearLayout>

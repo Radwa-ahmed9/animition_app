@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Animition_Test</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="open_drawer">Open navigation drawer</string>
+    <string name="close_drawer">Close navigation drawer</string>
+    <string name="image_desc">Image Description</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="placeholder_quote">Your quote here</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string-array name="countries">
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
